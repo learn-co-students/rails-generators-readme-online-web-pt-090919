@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+  #I passed this lab 3 months ago and need to submit to graduate!
   def index
   	@posts = Post.all
   end
